@@ -1,6 +1,6 @@
 {
-  "name": "react-qr-reader",
-  "version": "3.0.0-beta-1",
+  "name": "react-17-qr-reader",
+  "version": "3.0.0",
   "description": "A React Component for reading QR codes from the webcam",
   "scripts": {
     "build": "rollup -c",
@@ -15,7 +15,7 @@
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/react-qr-reader/react-qr-reader.git"
+    "url": "git+https://github.com/v-durand/react-17-qr-reader.git"
   },
   "keywords": [
     "react",
@@ -26,12 +26,12 @@
   "author": "thomas billiet",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/react-qr-reader/react-qr-reader/issues"
+    "url": "https://github.com/v-durand/react-17-qr-reader/issues"
   },
-  "homepage": "https://github.com/react-qr-reader/react-qr-reader#readme",
+  "homepage": "https://github.com/v-durand/react-17-qr-reader",
   "peerDependencies": {
-    "react": "^16.8.0 || ^17.0.0",
-    "react-dom": "^16.8.0 || ^17.0.0"
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
   },
   "dependencies": {
     "@zxing/browser": "0.0.7",
@@ -68,9 +68,9 @@
     "husky": "^4.3.0",
     "lint-staged": "^10.3.0",
     "prettier": "^2.1.1",
-    "react": "^16.13.1",
+    "react": ">=16.13.1",
     "react-docgen-typescript-loader": "^3.7.2",
-    "react-dom": "^16.13.1",
+    "react-dom": ">=16.13.1",
     "rollup-plugin-dts": "^4.1.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-terser": "^7.0.2",
